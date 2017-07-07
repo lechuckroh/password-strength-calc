@@ -1,0 +1,18 @@
+{
+  "name": "password-meter",
+  "version": "1.0.0",
+  "description": "Password strength meter calculator",
+  "main": "index.js",
+  "repository": "git@github.com:lechuckroh/password-meter.git",
+  "author": "Lechuck Roh",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --harmony --reporter spec --recursive -R min test/",
+    "testmon": "NODE_ENV=test nodemon --exec 'mocha --harmony --reporter spec --recursive -R min test/'"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  }
+}
