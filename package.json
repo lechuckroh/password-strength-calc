@@ -14,5 +14,6 @@
     "assert": "^1.4.1",
     "mocha": "^3.4.2",
     "nodemon": "^1.11.0"
-  }
+  },
+  "dependencies": {}
 }
