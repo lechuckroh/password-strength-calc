@@ -1,11 +1,14 @@
+const BabiliPlugin = require("babili-webpack-plugin");
+
 module.exports = {
     entry: './src/main.js',
     output: {
         path: __dirname,
-        filename: 'password-meter.js',
+        filename: 'dist/password-meter.min.js',
         library: 'getPasswordStrength'
     },
     plugins: [
+        new BabiliPlugin({})
     ],
     module: {
         rules: [{
