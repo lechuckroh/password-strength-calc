@@ -12,6 +12,12 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.2.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-compat": "^1.0.4",
     "mocha": "^3.4.2",
     "nodemon": "^1.11.0"
   },

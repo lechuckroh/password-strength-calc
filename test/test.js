@@ -1,7 +1,8 @@
 'use strict';
 
 const assert = require('assert');
-const {getPasswordStrength, functions} = require('../index');
+const getPasswordStrength = require('../src/main');
+const functions = require('../src/functions');
 
 describe('test', function () {
 
