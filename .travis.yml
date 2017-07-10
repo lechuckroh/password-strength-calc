@@ -15,11 +15,12 @@ cache:
   yarn: true
 
 install:
-- npm install -g yarn webpack
+- npm install -g webpack
 
 before_script:
 - yarn install
 
 script:
+- yarn test
 - yarn run build
 
