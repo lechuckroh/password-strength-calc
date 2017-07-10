@@ -150,9 +150,11 @@ describe('test', function () {
             'a': 3,
             '1': 3,
             '321': 4,
+            '3 2 1': 4,
             'Aa': 10,
             'AA': 0,
-            'PassW0rd!': 72
+            'PassW0rd!': 72,
+            ' Pass W0rd! ': 72
         };
 
         Object.entries(testSet).forEach(e => {

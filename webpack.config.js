@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         path: __dirname,
-        filename: 'dist/password-meter.min.js',
+        filename: 'dist/password-strength-calc.min.js',
         library: 'getPasswordStrength'
     },
     plugins: [

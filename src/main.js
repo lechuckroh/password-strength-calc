@@ -11,7 +11,7 @@ function getPasswordStrength(pwd) {
         return 0;
     }
 
-    const list = pwd.split('');
+    const list = pwd.replace(/\s/g, '').split('');
     const score = Object.values(functions).reduce((total, fn) => {
         total += fn(list);
         return total;
