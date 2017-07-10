@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+- "7"
+
+git:
+  depth: 1
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+  - "node_modules"
+  yarn: true
+
+install:
+- npm install -g yarn webpack
+
+before_script:
+- yarn install
+
+script:
+- yarn run build
+

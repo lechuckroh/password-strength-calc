@@ -1,8 +1,8 @@
 {
-  "name": "password-meter",
+  "name": "password-strength-calc",
   "version": "1.0.0",
-  "description": "Password strength meter calculator",
-  "main": "index.js",
+  "description": "Password strength calculator based on passwordmeter.com",
+  "main": "src/main.js",
   "repository": "git@github.com:lechuckroh/password-meter.git",
   "author": "Lechuck Roh",
   "license": "MIT",
