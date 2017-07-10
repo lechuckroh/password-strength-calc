@@ -25,3 +25,6 @@ console.log(`'Password' strength is ${getPasswordStrength('Password')}`);
     document.write("'Password' strength is " + getPasswordStrength('Password'));
 </script>
 ```
+
+[Download](https://github.com/lechuckroh/password-strength-calc/releases)
+
