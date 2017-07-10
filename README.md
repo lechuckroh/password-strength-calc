@@ -1,6 +1,7 @@
 # password-strength-calc
 
 [![Build Status](https://travis-ci.org/lechuckroh/password-strength-calc.svg?branch=master)](https://travis-ci.org/lechuckroh/password-strength-calc)
+[![Coverage Status](https://coveralls.io/repos/github/lechuckroh/password-strength-calc/badge.svg?branch=master)](https://coveralls.io/github/lechuckroh/password-strength-calc?branch=master)
 
 Password strength calculator written in JavaScript.
 
