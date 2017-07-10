@@ -1,6 +1,7 @@
 language: node_js
+
 node_js:
-- "7"
+- '7'
 
 git:
   depth: 1
@@ -11,7 +12,7 @@ branches:
 
 cache:
   directories:
-  - "node_modules"
+  - node_modules
   yarn: true
 
 install:
@@ -24,3 +25,11 @@ script:
 - yarn run coveralls
 - yarn run build
 
+deploy:
+  provider: releases
+  api_key:
+    secure: EqxtFtcEoB1Q49+z0+ghHSaFyrbqEwTBy8EPNeunijHTP53rrJWiBpaf11qvRttfHIkqrH9ibB0IHKp/Xb+jLmZVyPq3L+TgK+jmW+WikJql4JCNcyOZ59fHye8yjsNTxMGx/0sWr8w1JJJXnAVpV2A2vT6xuAS5jGXUUK61skFjXKWpa7+OQlbV/t2VT/gdjdIG55/RMvVZKLRQv/HAFuYDNvH8DQGT/hTv53JuHEAixh3lYLc6Xj578jKr+3kmN0U6aINCFx5e4Tjyj7IEOLgV9XEoh4qRI3obc/EopjsnV9ycNtG5gamBxYaCQhnoPHg1DpuX2ZwsJQWW1K6kPvNHv3dyAUY9KOjEQoC3oV98ReALlhZ4I/GxvY/LS0ebN9So1J0wuEOLBmZOJvjPgN/sz5+0OzGQho4SWobV+ahz4eAY/PPjSQlePP5fNLnGOz9HFA8vK3xodojCzupDCtpNSp5kjo38KySlT+aY5isJSXFz6lWp09uO2pn2nJkiC53rLEnYmyLhNPtBnlOtoUdj/dexKOHmwpBqSr9Qct7JyfRNmfr+vC/XV+iZAz5z+hbgvEEdjOA6XZWd8Ez01WpYo0U072L/tZFiHXJ+hUwh2OAioPvxnXsWnazTbyozAbTDLldHW+JhyC4j6KC531RfDhR6Nt3OnPZtlWnun78=
+  file: dist/*.js
+  skip_cleanup: true
+  on:
+    tags: true
