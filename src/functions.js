@@ -99,7 +99,7 @@ const functions = {
                 hasUpperCase = true;
             } else if (isNumeric(ch)) {
                 hasNumber = true;
-            } else if (isSymbol(ch)) {
+            } else {
                 hasSymbol = true;
             }
         });
