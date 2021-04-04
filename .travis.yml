@@ -19,11 +19,11 @@ install:
 - npm install -g webpack
 
 before_script:
-- yarn install
+- npm install
 
 script:
-- yarn run coveralls
-- yarn run build
+- npm run coveralls
+- npm run build
 
 deploy:
   provider: releases

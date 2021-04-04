@@ -1,6 +1,6 @@
 {
   "name": "password-strength-calc",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Password strength calculator based on passwordmeter.com",
   "main": "src/main.js",
   "repository": "git@github.com:lechuckroh/password-meter.git",
